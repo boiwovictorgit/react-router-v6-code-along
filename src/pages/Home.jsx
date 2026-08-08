@@ -21,8 +21,14 @@ function Home() {
         {/* place NavBar here */}
       </header>
       <main>
-        <h1>Home!</h1>
+        <h1>Welcome to the Home Page</h1>
+        <p>Below is a list of users fetched from the backend:</p>
         {userList}
+          <h1>
+              Users 1:
+          </h1>
+          <p> VICTOR KEMBOI</p>
+        
       </main>
     </>
   )

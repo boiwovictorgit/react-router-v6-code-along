@@ -1,4 +1,4 @@
-import NavBar from "../coponents/NavBar"
+
 function ErrorPage() {
     return (
         <>
@@ -9,3 +9,4 @@ function ErrorPage() {
     )
 }
 
+export default ErrorPage
