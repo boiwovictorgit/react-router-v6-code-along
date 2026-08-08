@@ -1,7 +1,9 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Browserouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import About from './pages/About'
 import Login from './pages/Login'
+import UserProfile from './pages/UserProfile'
+import ErrorPage from './pages/ErrorPage'
 const App = () => {
     return (
         <BrowserRouter>
@@ -9,6 +11,7 @@ const App = () => {
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/login" element={<Login />} />
+                <Route path="/user-profile" element={<UserProfile />} />
             </Routes>
         </BrowserRouter>
     )
